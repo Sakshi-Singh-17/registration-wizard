@@ -1,0 +1,161 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(221, 245, 255);
+  
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: none;
+}
+
+.form-card {
+  background-color: white;
+  width: 100%;
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: rgb(44, 38, 38);
+  margin-bottom: 20px;
+}
+
+.form-section {
+  margin-bottom: 20px;
+}
+
+.form-section label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: rgb(25, 17, 83);
+}
+
+.form-section input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid wheat;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: aliceblue;
+  color: black;
+}
+
+.form-section input:focus {
+  border-color: #0a2b4f;
+}
+
+.review-box {
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid whitesmoke;
+}
+
+.review-box p {
+  color: black;
+  margin-bottom: 20px;
+}
+
+.review-box div {
+  padding: 10px 0;
+  color: black;
+}
+
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.navigation button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  color: white;
+}
+
+.back-btn {
+  background-color: #6c757d;
+}
+
+.next-btn {
+  background-color: #06305c;
+}
+
+.submit-btn {
+  background-color: #0e7526;
+}
+
+.navigation button:disabled {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
+}
+
+
+.success-box {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.success-box h1 {
+  color: #0d3b18;
+}
+
+.success-box p {
+  color: rgb(78, 73, 73);
+  margin-bottom: 25px;
+}
+
+.success-box button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #096220;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.success-box button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 500px) {
+  .form-card {
+    padding: 20px;
+  }
+
+  .navigation {
+    flex-direction: column;
+  }
+
+  .navigation button {
+    width: 100%;
+  }
+}
