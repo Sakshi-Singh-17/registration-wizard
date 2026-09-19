@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./App.css";
-import PersonalInfo from "./components/PersonalInfo";
-import AccountDetails from "./components/AccountDetails";
-import Review from "./components/Review"; 
+import PersonalInfo from "/PersonalInfo";
+import AccountDetails from "/AccountDetails";
+import Review from "/Review"; 
 
 
 function App() {
